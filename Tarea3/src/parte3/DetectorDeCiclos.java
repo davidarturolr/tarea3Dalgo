@@ -52,7 +52,7 @@ public class DetectorDeCiclos {
     }
 
     public static void main(String[] args) throws FileNotFoundException {
-        File archivo = new File("data/Parte3.txt");
+        File archivo = new File("data/Parte3NoCiclos.txt");
         Scanner scanner = new Scanner(archivo);
 
         List<int[]> datos = new ArrayList<>();
